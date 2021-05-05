@@ -25,4 +25,4 @@ out_file = File.new("out.txt", "w")
 out_file.write user_input
 out_file.close
 
-p `docker run -v ~/Desktop/astro/7/out.txt:/mnt/mydata ruby:2.7.1 ruby /mnt/mydata`
+p `docker run -v ~/Desktop/astro/7/docker_parse_code_example/out.txt:/mnt/mydata ruby:2.7.1 ruby /mnt/mydata`
