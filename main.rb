@@ -6,7 +6,6 @@ p `docker run ruby:2.7.1 ruby -e 'puts RUBY_VERSION'`
 
 # Step 2
 # Parse code from file
-
 user_input = '
 class Cat
   def initialize(name)
